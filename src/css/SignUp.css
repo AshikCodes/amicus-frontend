@@ -1,0 +1,146 @@
+body {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .sign-up-title-container {
+    font-size: 5vh;
+  }
+  
+  .sign-up-container {
+    padding: 20px;
+    border: rgb(141, 141, 141) solid 2px;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 90vh;
+    margin-top: 20px;
+  }
+  
+  .sign-up-form-container {
+    width: 30vw;
+    float: left;
+  }
+  
+  .sign-up-firstname-container, .sign-up-lastname-container,  .email-container, .sign-up-password-container, .retype-password-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .firstname-label-container, .lastname-label-container, .email-label-container, .password-label-container, .retype-password-label-container {
+    font-size: 2vh;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .firstname-input-container, .lastname-input-container, .email-input-container, .sign-up-password-input-container, .retype-password-input-container {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 40px;
+    width: 360px;
+  }
+
+  /* Responsive stuff */
+
+@media only screen and (max-width: 600px) {
+
+    .sign-up-container {
+    border: rgb(141, 141, 141) solid 2px;
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+    height: 80vh;
+    margin-top: 50px;
+  }
+  
+  .sign-up-form-container {
+    width: 65vw;
+    float: left;
+  }
+  
+  .firstname-input-container, .lastname-input-container, .email-input-container, .sign-up-password-input-container, .retype-password-input-container  {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 3vh;
+    width: 55vw;
+  }
+  
+  }
+  
+  @media only screen and (min-width: 600px){
+    .sign-up-container {
+    border: rgb(141, 141, 141) solid 2px;
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+    height: 80vh;
+    margin-top: 50px;
+  }
+  
+  .sign-up-form-container {
+    width: 45vw;
+    float: left;
+  }
+  
+  .firstname-input-container, .lastname-input-container, .email-input-container, .sign-up-password-input-container, .retype-password-input-container {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 4vh;
+    width: 36vw;
+  }
+  }
+  
+  
+  @media only screen and (min-width: 900px){
+    .sign-up-container {
+      border: rgb(141, 141, 141) solid 2px;
+      display: flex;
+      justify-content: center;
+      width: 40vw;
+      height: 80vh;
+      margin-top: 50px;
+    }
+    
+    .sign-up-form-container {
+      width: 40vw;
+      float: left;
+    }
+    
+    .firstname-input-container, .lastname-input-container, .email-input-container, .sign-up-password-input-container, .retype-password-input-container {
+      font-size: 25px;
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-right: 10px;
+      height: 4vh;
+      width: 34vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1050px){
+    .sign-up-container {
+      border: rgb(141, 141, 141) solid 2px;
+      display: flex;
+      justify-content: center;
+      width: 30vw;
+      height: 80vh;
+      margin-top: 50px;
+    }
+    
+    .sign-up-form-container {
+      width: 30vw;
+      float: left;
+    }
+    
+    .firstname-input-container, .lastname-input-container, .email-input-container, .sign-up-password-input-container, .retype-password-input-container {
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-right: 10px;
+      height: 4vh;
+      width: 26vw;
+    }
+  }
+
